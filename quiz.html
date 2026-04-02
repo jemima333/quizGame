@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+        <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+   <div class="container">
+    
+    <div class="category">
+         <h2>choisir une categorie</h2>
+        <button onclick="startQuiz('francais')">Francais</button>
+        <button onclick="startQuiz('math')">Math</button>
+        <button onclick="startQuiz('culture')">Culture</button>
+        <button onclick="startQuiz('religion')">Religion</button>
+
+    </div>
+ </div>
+    <div class="quiz-box" id="quizBox">
+<h3 id="question"></h3>
+<div id="answers">
+    <button class="option"></button>
+    <button class="option"></button>
+    <button class="option"></button>
+    <button class="option"></button>
+    
+</div>
+<p id="timer">temps restant :10s </p>
+ <p id="score">score: 0</p>
+<p id="message"></p> 
+
+<button id="nextBtn">suivant</button>
+    </div>
+    
+   <script src="script.js"></script>
+</body>
+</html>

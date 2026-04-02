@@ -1,0 +1,43 @@
+body{
+padding: 0;
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'creepster',cursive;
+background:hsla(0, 1%, 64%, 0.227) ;
+}
+.home{
+text-align: center;
+}
+.title{
+font-size: 70px;
+letter-spacing: 5px;
+margin-bottom: 40px;
+text-shadow: 0 0 20px hsla(0, 5%, 4%, 0.516);
+
+}
+    .play-btn{
+        padding: 15px 40px;
+        font-family: 'creepster', cursive;
+        font-size: 22px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        background: linear-gradient(45deg,#ff416C,#ff4b2b);
+        color: white;
+        transition: 0.3s;
+        animation: bounce 1s infinite alternate;
+    }
+.play-btn{
+    animation: salsa 0.8s infinite;
+}
+
+@keyframes salsa{
+    0%{transform: translateY(0px) rotate(0deg); }
+    25%{ transform: translateY(-3px) rotate(-5deg);}
+    50%{transform: translateY(0px)rotate(5deg);}
+    75%{transform: translateY(-3px) rotate(-5deg);}
+    100%{transform: translateY(0px) rotate(0deg);}
+}
