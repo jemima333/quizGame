@@ -5,7 +5,7 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-font-family: 'creepster',cursive;
+font-family: arial,sans-serif;
 background:hsla(0, 1%, 64%, 0.227) ;
 }
 .home{
