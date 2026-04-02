@@ -20,7 +20,7 @@ text-shadow: 0 0 20px hsla(0, 5%, 4%, 0.516);
 }
     .play-btn{
         padding: 15px 40px;
-        font-family: 'creepster', cursive;
+        font-family: arial,sans-serif;
         font-size: 22px;
         border-radius: 30px;
         border: none;
